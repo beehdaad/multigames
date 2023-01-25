@@ -1,3 +1,3 @@
-accounts/__pycache__
-games/__pycache__
-helper/__pycache__
+accounts/__pycache__/*
+games/__pycache__/*
+helper/__pycache__/*
