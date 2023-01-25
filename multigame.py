@@ -148,8 +148,8 @@ while loop_condition_main_page:
                         wallet = int(USER_INFORMATION["wallet"])
                         # -------------------------SELECT GAMES-------------------------
                         loop_condition_select_games = True
-                        logger.info(LogMsg.select_games_section)
                         while loop_condition_select_games:
+                            logger.info(LogMsg.select_games_section)
                             system("clear")
                             print()
                             select_games = [
@@ -229,10 +229,10 @@ while loop_condition_main_page:
                                                     system("clear")
                                                     wallet -= levels[input_command][0]
                                                     USER_INFORMATION.update(wallet=wallet)
-                                                    logger_dad.info(LogMsg.report_levels_1.format(USER_INFORMATION["username"], input_command, levels[input_command][0], wallet))
+                                                    logger.info(LogMsg.report_levels_1.format(USER_INFORMATION["username"], input_command, levels[input_command][0], wallet))
                                                     print(OtherMsg.information_before_run_dad.format(USER_INFORMATION['username'], levels[input_command][0], wallet))
                                                     input(OtherMsg.input_ready)
-                                                    logger_dad.info(LogMsg.report_levels_2.format(USER_INFORMATION["username"], wallet))
+                                                    logger.info(LogMsg.report_levels_2.format(USER_INFORMATION["username"], wallet))
                                                     LoadingCountNum(0.9)
                                                     # -------------------------PLAY GAME DUNGEON AND DRAGON-------------------------
                                                     if input_command == "-easy":
