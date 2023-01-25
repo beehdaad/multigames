@@ -2,6 +2,9 @@ from enum import StrEnum
 
 
 class Table(StrEnum):
+    """
+    This section belongs to the texts in the table
+    """
     hm_page = "••• HANG MAN •••"
     main_page = "••• MAIN PAGE •••"
     ttt_page = "••• TIC TAC TOE •••"
@@ -25,6 +28,9 @@ class Table(StrEnum):
 
 
 class OtherMsg(StrEnum):
+    """
+    This is the rest of the text
+    """
     clear = "clear"
     waiting = "Waiting"
     icon_input = ">>>  "
@@ -49,6 +55,9 @@ class OtherMsg(StrEnum):
 
 
 class LogMsg(StrEnum):
+    """ 
+    This section belongs to Logger texts
+    """
     end = "end game"
     start = "start game"
     login = "'{}' login"
@@ -92,6 +101,9 @@ class LogMsg(StrEnum):
 
 
 class DashMsg(StrEnum):
+    """ 
+    This section belongs to the command class
+    """
     adv_8 = "why not"
     adv_9 = "thank you"
     adv_0 = "Hi, what are you doing here?"
@@ -101,8 +113,8 @@ class DashMsg(StrEnum):
     adv_3 = "I gave all the money I had to Mapsa for Django boot camp"
     exit = "Hope To See You Again...\n\nCopyright© 2023 Behdad Siavoshi"
     adv_1 = "Hello dude, I had come to play Dungeons and Dragons, but I didn't have enough money" # noqa E501
-    adv_5 = "A company in the field of oil and petrochemicals, but in one of its floors, programming is taught" # noqa E501
     adv_7 = "good luck, Just pay your money for the boot camp first, Can you please lend me 5 coins?" # noqa E501
+    adv_5 = "A company in the field of oil and petrochemicals, but in one of its floors, programming is taught" # noqa E501
     help = """
     Hello, my friend
     

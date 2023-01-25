@@ -6,6 +6,9 @@ import math
 
 
 class LevelEasy:
+    """
+    Easy to make appropriate level values    
+    """
     def __init__(self) -> None:
         self.table_size = 5
         self.xy_list = [(x, y) for y in range(self.table_size) for x in range(self.table_size)]
@@ -15,6 +18,9 @@ class LevelEasy:
 
 
 class LevelNormal:
+    """
+    Normal to make appropriate level values    
+    """
     def __init__(self) -> None:
         self.table_size = 8
         self.xy_list = [(x, y) for y in range(self.table_size) for x in range(self.table_size)]
@@ -23,6 +29,9 @@ class LevelNormal:
 
 
 class LevelHard:
+    """
+    Hard to make appropriate level values    
+    """
     def __init__(self) -> None:
         self.table_size = 12
         self.xy_list = [(x, y) for y in range(self.table_size) for x in range(self.table_size)]
@@ -31,7 +40,27 @@ class LevelHard:
 
 
 class DrawMap:
-    def __init__(self,table_size, xy_list, player,  wall, hint, dragon=None, dungeon=None, ) -> None:
+    """ 
+    Create an initializer with an object from the leveling class
+    
+    For example:    
+    >>> a = LevelsEasy()
+    >>> b = DrawMap(a.table_size, a.xy_list, ...)
+    And then we can use the show function and print its values with 
+    
+    >>> b.show()
+    >>> show place game
+    """
+    def __init__(
+                self,
+                table_size: int,
+                xy_list: list[tuple[int, int]],
+                player: tuple[int, int],
+                wall: list[tuple[int, int]],
+                hint: tuple[int, int],
+                dragon: tuple[int, int]=None,
+                dungeon: tuple[int, int]=None
+                ) -> None:
         self.table_size = table_size
         self.xy_list = xy_list
         self.player = player
@@ -40,6 +69,9 @@ class DrawMap:
         self.wall = wall
         self.hint = hint
     def show(self):
+        """ 
+        The output uses the print() function
+        """
         print("-"*((self.table_size*3) + 2))
         for item in self.xy_list:
             x, y = item
@@ -65,7 +97,39 @@ class DrawMap:
 
 
 class AllowedDirection:
-    def check(table_size, character, wall) -> list[str]:
+    """ 
+    Using the object you made from the game level,
+    give the size of the table, character and walls to the function,
+    Here you don't need to create object class Just call and pass the values into the function
+    For Example:
+
+    >>> list = AllowedDirection.check(values...)
+
+    The output is the allowed value of the directions in a list
+
+    >>> ["up", "down", "left", "right"]
+    """
+    def check(
+            table_size: int,
+            character: tuple,
+            wall: list[tuple[int, int]]
+            ) -> list[str]:
+        """
+
+        Parameters
+        ----------
+        table_size :
+            The size of the game table to determine the character's range of motion
+        character :
+            The position of the game character, whether it is a player or a Dargon
+        wall :
+            It may not be a wall in the game, but if it is, it determines the range of the character's movement
+
+        Returns
+        -------
+        list of directions
+
+        """
         NAVIGATION = ["up", "down", "left", "right"]
         x_line, y_column = character
         if x_line == table_size-1:
@@ -88,6 +152,11 @@ class AllowedDirection:
 
 
 class MoveCharacter:
+    """ 
+    You have to give it the position of the character and the direction of movement,
+    and its output will be a tuple by the perform function
+    In fact, it changes the position of the character
+    """
     def __init__(self, character: tuple[int, int], move: str) -> None:
         self.character = character
         self.move = move
@@ -110,6 +179,14 @@ class MoveCharacter:
         self.__move = value
 
     def perform(self) -> tuple[int, int]:
+        """
+        The output of this function after calling is the changed position of the character
+        
+        For example:
+
+        >>> MoveCharacter((2, 5), "up").perform()
+        >>> return -> (1, 5)
+        """
         x_line, y_column = self.character
         if self.move == "up":
             y_column -= 1
@@ -123,7 +200,23 @@ class MoveCharacter:
 
 
 class MoveDragon:
-    def perform(self, check_distance) -> tuple[tuple[int, int], str]:
+    """ 
+    Dragon decides according to its current position, 
+    you just need to use the perfom function and provide the required values to it.
+    """
+    def perform(self, check_distance: int | str) -> tuple[tuple[int, int], str]:
+        """
+
+        Parameters
+        ----------
+        check_distance :
+            It is responsible for detecting the movement of the dragon
+
+        Returns
+        -------
+            a tuple and a message from Dragon
+            The message is None if the dragon has not moved
+        """
         dragon_position = self.dragon, None
         NAVIGATION = AllowedDirection.check(self.table_size, self.dragon, self.wall)
         x_player, y_player = self.player
@@ -146,6 +239,13 @@ class MoveDragon:
         return dragon_position
 
     def distance(self):
+        """ 
+        Calculate the distance between the player and
+        the dragon using the Euclidean triangle method
+
+        The object of the game is given to this function and
+        it returns the distance of 2 or 4 or 'off' at the exit
+        """
         output = "off"
         if math.dist(self.player, self.dragon) <= 2:
             output = 2
@@ -155,7 +255,23 @@ class MoveDragon:
 
 
 class HintDungeon:
-    def play(dungeon):
+    """
+    Returns the position of the dungeon as a sound
+
+    Tested on Mac OS
+    """
+    def play(dungeon: tuple[int, int]):
+        """
+
+        Parameters
+        ----------
+        dungeon :
+            Dungeon location
+
+        Returns
+        -------
+        Output only beep beep
+        """
         x, y = dungeon
         file = "helper/Beep.mp3"
         for i in range(x):

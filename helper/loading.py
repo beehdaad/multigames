@@ -5,7 +5,9 @@ import pyfiglet
 
 
 class LoadingIcon:
-    """ """
+    """
+    Prints the desired text as a demonstration
+    """
     def __init__(self, caption: str, time: float, count: int) -> None:
         self.caption = caption
         self.time = time
@@ -13,72 +15,38 @@ class LoadingIcon:
 
     @property
     def caption(self):
-        """ """
         ...
 
     @caption.setter
     def caption(self, value):
-        """
-
-        Parameters
-        ----------
-        value :
-            
-
-        Returns
-        -------
-
-        """
         if not isinstance(value, str):
             raise TypeError
         self.__caption = value
 
     @property
     def time():
-        """ """
         ...
 
     @time.setter
     def time(self, value):
-        """
-
-        Parameters
-        ----------
-        value :
-            
-
-        Returns
-        -------
-
-        """
         if not isinstance(value, float):
             raise TypeError
         self.__time = value
 
     @property
     def count():
-        """ """
         ...
 
     @count.setter
     def count(self, value):
-        """
-
-        Parameters
-        ----------
-        value :
-            
-
-        Returns
-        -------
-
-        """
         if not isinstance(value, int):
             raise TypeError
         self.__count = value
 
     def show(self):
-        """ """
+        """
+        By means of this function, the value of the object is taken and printed
+        """
         num = 0
         while self.__count > num:
             system("clear")
@@ -95,28 +63,18 @@ class LoadingIcon:
 
 
 class LoadingLogo:
-    """ """
+    """
+    Prints a text as a logo and counting from 0 to 100
+    """
     def __init__(self, caption) -> None:
         self.caption = caption
 
     @property
     def caption(self):
-        """ """
         return self.__caption
 
     @caption.setter
     def caption(self, value):
-        """
-
-        Parameters
-        ----------
-        value :
-            
-
-        Returns
-        -------
-
-        """
         if not isinstance(value, str):
             raise TypeError
         if not len(value) < 20:
@@ -124,7 +82,9 @@ class LoadingLogo:
         self.__caption = value
 
     def show(self):
-        """ """
+        """ 
+        By means of this function, the value of the object is taken and printed
+        """
         TXT_PYFIGLET = pyfiglet.Figlet(font='slant')
         count: int = 0
         while count < 30:
@@ -141,6 +101,10 @@ class LoadingLogo:
 
 
 class LoadingCountNum:
+    """
+    Counter 1 2 3 whose speed can be adjusted
+    which is printed after calling
+    """
     def __init__(self, time) -> None:
         self.time = time
         count = pyfiglet.Figlet(font='big')

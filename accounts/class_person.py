@@ -2,8 +2,11 @@ from .class_database import DataBase
 from .custom_error import PasswordRange, AllowedWord
 
 
-class register(DataBase):
-    """ """
+class register:
+    """ 
+    Creates an account using the username and password entered by the user
+    which must follow some rules, otherwise it will raise an error
+    """
 
     def __init__(self, username: str, password: str) -> None:
         self.username = username
@@ -11,22 +14,10 @@ class register(DataBase):
 
     @property
     def username(self):
-        """ """
         return self.__username
 
     @username.setter
     def username(self, value: str):
-        """
-
-        Parameters
-        ----------
-        value: str :
-            
-
-        Returns
-        -------
-
-        """
         if not isinstance(value, str):
             raise ValueError
         if not value[0].isalpha():
@@ -35,38 +26,28 @@ class register(DataBase):
 
     @property
     def password(self):
-        """ """
         return self.__password
 
     @password.setter
     def password(self, value: str):
-        """
-
-        Parameters
-        ----------
-        value: str :
-            
-
-        Returns
-        -------
-
-        """
         if not isinstance(value, str):
             raise ValueError
         if not 8 <= len(value) <= 12:
             raise PasswordRange
         self.__password = value
 
-    def check_username(self, data: list):
+    def check_username(self, data: list[dict]):
         """
+        It checks if the username already exists and returns false
 
         Parameters
         ----------
         data: list :
-            
+            User accounts data
 
         Returns
         -------
+        User index in the database and a boolean
 
         """
         index: int = 0
@@ -78,16 +59,18 @@ class register(DataBase):
             index += 1
         return content, index
 
-    def register(self, data: list):
+    def register(self, data: list[dict]):
         """
+        If the username does not exist in the database, it will be written and the output will return True
 
         Parameters
         ----------
         data: list :
-            
+            User accounts data
 
         Returns
         -------
+        boolean
 
         """
         content: bool = False
@@ -99,21 +82,26 @@ class register(DataBase):
 
 
 class login(DataBase):
-    """ """
-    def __init__(self, username, password) -> None:
+    """ 
+    If the username and password are in the database,
+    it will allow login, otherwise it will return an error
+    You can even log out of the account
+    """
+    def __init__(self, username: str, password: str) -> None:
         self.username = username
         self.password = password
 
-    def login(self, data: list):
+    def login(self, data: list[dict]):
         """
 
         Parameters
         ----------
         data: list :
-            
+            User accounts list
 
         Returns
         -------
+        Dictionary containing user information and boolean value
 
         """
         index: int = 0
@@ -128,15 +116,16 @@ class login(DataBase):
             index += 1
         return user, content
 
-    def logout(self, data: list, user_info):
+    def logout(self, data: list[dict], user_info: dict):
         """
-
+        Added user information with the internal database and rewrote the database file
+    
         Parameters
         ----------
         data: list :
-            
+            User accounts list
         user_info :
-            
+            Dictionary containing user information
 
         Returns
         -------

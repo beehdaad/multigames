@@ -7,22 +7,36 @@ import cowsay
 from stringcolor import cs
 from tabulate import tabulate
 
-from helper import command
-from accounts import DataBase
-from accounts import register, login
-from helper import Table, OtherMsg, LogMsg
-from accounts import PasswordRange, AllowedWord
-from helper import LoadingLogo, LoadingIcon, LoadingCountNum
+from accounts import (
+    login,
+    register,
+    DataBase,
+    AllowedWord,
+    PasswordRange,
+)
+from helper import (
+    Table,
+    LogMsg,
+    command,
+    OtherMsg,
+    LoadingLogo,
+    LoadingIcon,
+    LoadingCountNum,
+)
 from games.dungeon_and_dragon import (
     DrawMap,
-    AllowedDirection,
-    MoveCharacter,
-    MoveDragon,
-    LevelEasy,
-    LevelNormal,
     LevelHard,
-    HintDungeon
+    LevelEasy,
+    MoveDragon,
+    HintDungeon,
+    LevelNormal,
+    MoveCharacter,
+    AllowedDirection,
 )
+
+"""
+The implementation of the program is from this part, which was written by nested loop
+"""
 
 logging.config.fileConfig(fname = 'log/log_setting.toml', disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
