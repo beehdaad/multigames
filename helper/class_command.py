@@ -109,8 +109,6 @@ class command:
         print("-"*79)
         print(DashMsg.help.value)
         print("-"*79)
-        input("Press 'enter' on the keyboard to exit -help ")
-        system("clear")
 
 
 if __name__ == "__main__":

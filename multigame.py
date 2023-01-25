@@ -72,6 +72,8 @@ while loop_condition_main_page:
         if input_command == "-help":
             logger.info(LogMsg.help_main_section)
             user_command.dash_help()
+            input("Press 'enter' on the keyboard to exit -help ")
+            system("clear")
         elif input_command == "-exit":
             logger.info(LogMsg.exit_main_section)
             user_command.dash_exit()
@@ -313,4 +315,4 @@ while loop_condition_main_page:
                     sleep(0.7)
 logger.info(LogMsg.end)
 if __name__ == "__main__":
-    ...
+    LogMsg
