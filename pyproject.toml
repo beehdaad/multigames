@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "multigames"
+version = "1.0"
+description = "Game"
+authors = ["Behdad Siavoshi"]
+license = "Free"
+readme = "README.md"
+packages = [{include = "multigames"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.1"
+pyfiglet = "^0.8.post1"
+cowsay = "^5.0"
+tabulate = "^0.9.0"
+string-color = "^1.2.3"
+
+[tool.poetry.group.devDependencies.dependencies]
+flake8 = "^6.0.0"
+pyment = "^0.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

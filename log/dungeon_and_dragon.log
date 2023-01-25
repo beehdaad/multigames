@@ -1,0 +1,519 @@
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:33 - 2023-01-24 17:36:43,342
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:33 - 2023-01-24 17:37:07,795
+dad - INFO - behdad is in the game on 'hard level', wallet:33 - 2023-01-24 17:37:10,560
+dad - INFO - Show map, Player position: (1, 5) The position of the dragon: (11, 8) - 2023-01-24 17:37:10,569
+dad - INFO - Player position: (1, 5) and choose up and current position is: (1, 4) - 2023-01-24 17:37:13,627
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:13,627
+dad - INFO - Show map, Player position: (1, 4) The position of the dragon: (11, 8) - 2023-01-24 17:37:13,637
+dad - INFO - Player position: (1, 4) and choose left and current position is: (0, 4) - 2023-01-24 17:37:17,307
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:17,307
+dad - INFO - Show map, Player position: (0, 4) The position of the dragon: (11, 8) - 2023-01-24 17:37:17,317
+dad - INFO - Player position: (0, 4) and choose down and current position is: (0, 5) - 2023-01-24 17:37:19,563
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:19,564
+dad - INFO - Show map, Player position: (0, 5) The position of the dragon: (11, 8) - 2023-01-24 17:37:19,575
+dad - INFO - Player position: (0, 5) and choose down and current position is: (0, 6) - 2023-01-24 17:37:20,716
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:20,716
+dad - INFO - Show map, Player position: (0, 6) The position of the dragon: (11, 8) - 2023-01-24 17:37:20,727
+dad - INFO - Player position: (0, 6) and choose down and current position is: (0, 7) - 2023-01-24 17:37:21,804
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:21,804
+dad - INFO - Show map, Player position: (0, 7) The position of the dragon: (11, 8) - 2023-01-24 17:37:21,814
+dad - INFO - Show map, Player position: (0, 7) The position of the dragon: (11, 8) - 2023-01-24 17:37:22,589
+dad - INFO - Show map, Player position: (0, 7) The position of the dragon: (11, 8) - 2023-01-24 17:37:23,143
+dad - INFO - Show map, Player position: (0, 7) The position of the dragon: (11, 8) - 2023-01-24 17:37:23,533
+dad - INFO - Show map, Player position: (0, 7) The position of the dragon: (11, 8) - 2023-01-24 17:37:23,751
+dad - INFO - Player position: (0, 7) and choose down and current position is: (0, 8) - 2023-01-24 17:37:24,740
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:24,740
+dad - INFO - Show map, Player position: (0, 8) The position of the dragon: (11, 8) - 2023-01-24 17:37:24,750
+dad - INFO - Player position: (0, 8) and choose right and current position is: (1, 8) - 2023-01-24 17:37:26,796
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:26,796
+dad - INFO - Show map, Player position: (1, 8) The position of the dragon: (11, 8) - 2023-01-24 17:37:26,805
+dad - INFO - Player position: (1, 8) and choose right and current position is: (2, 8) - 2023-01-24 17:37:28,236
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:28,236
+dad - INFO - Show map, Player position: (2, 8) The position of the dragon: (11, 8) - 2023-01-24 17:37:28,244
+dad - INFO - Player position: (2, 8) and choose right and current position is: (3, 8) - 2023-01-24 17:37:29,564
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:29,564
+dad - INFO - Show map, Player position: (3, 8) The position of the dragon: (11, 8) - 2023-01-24 17:37:29,574
+dad - INFO - Player position: (3, 8) and choose right and current position is: (4, 8) - 2023-01-24 17:37:32,684
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:32,684
+dad - INFO - Show map, Player position: (4, 8) The position of the dragon: (11, 8) - 2023-01-24 17:37:32,694
+dad - INFO - Player position: (4, 8) and choose up and current position is: (4, 7) - 2023-01-24 17:37:34,068
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:34,068
+dad - INFO - Show map, Player position: (4, 7) The position of the dragon: (11, 8) - 2023-01-24 17:37:34,078
+dad - INFO - Player position: (4, 7) and choose up and current position is: (4, 6) - 2023-01-24 17:37:34,948
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:34,948
+dad - INFO - Show map, Player position: (4, 6) The position of the dragon: (11, 8) - 2023-01-24 17:37:34,960
+dad - INFO - Show map, Player position: (4, 6) The position of the dragon: (11, 8) - 2023-01-24 17:37:37,445
+dad - INFO - Player position: (4, 6) and choose right and current position is: (5, 6) - 2023-01-24 17:37:39,996
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:39,996
+dad - INFO - Show map, Player position: (5, 6) The position of the dragon: (11, 8) - 2023-01-24 17:37:40,006
+dad - INFO - Player position: (5, 6) and choose right and current position is: (6, 6) - 2023-01-24 17:37:41,829
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:41,829
+dad - INFO - Show map, Player position: (6, 6) The position of the dragon: (11, 8) - 2023-01-24 17:37:41,840
+dad - INFO - Player position: (6, 6) and choose right and current position is: (7, 6) - 2023-01-24 17:37:43,757
+dad - INFO - Dragon Moved Position: (11, 8) - 2023-01-24 17:37:43,757
+dad - INFO - sepehr entered the '-normal' and lost 10 coins, wallet:40 - 2023-01-24 17:52:39,779
+dad - INFO - sepehr entered the game with a counter of 1 2 3, wallet:40 - 2023-01-24 17:52:41,333
+dad - INFO - sepehr is in the game on 'normal level', wallet:40 - 2023-01-24 17:52:44,082
+dad - INFO - Show map, Player position: (5, 0) The position of the dragon: (6, 4) - 2023-01-24 17:52:44,091
+dad - INFO - Player position: (5, 0) and choose 'down' and current position is: (5, 1) - 2023-01-24 17:52:47,763
+dad - INFO - Dragon Moved Position: (6, 3) - 2023-01-24 17:52:47,763
+dad - INFO - sepehr was shown a hint - 2023-01-24 17:52:47,764
+dad - INFO - Show map, Player position: (5, 1) The position of the dragon: (6, 3) - 2023-01-24 17:52:47,775
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:33 - 2023-01-24 18:13:06,975
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:33 - 2023-01-24 18:13:07,858
+dad - INFO - behdad is in the game on 'hard level', wallet:33 - 2023-01-24 18:13:10,613
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:33 - 2023-01-24 18:14:12,554
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:33 - 2023-01-24 18:14:13,213
+dad - INFO - behdad is in the game on 'hard level', wallet:33 - 2023-01-24 18:14:15,968
+dad - INFO - Show map, Player position: (6, 1) The position of the dragon: (4, 7) - 2023-01-24 18:14:15,981
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:33 - 2023-01-24 18:19:00,640
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:33 - 2023-01-24 18:19:01,220
+dad - INFO - behdad is in the game on 'hard level', wallet:33 - 2023-01-24 18:19:03,972
+dad - INFO - Show map, Player position: (4, 10) The position of the dragon: (7, 0) - 2023-01-24 18:19:03,981
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:33 - 2023-01-24 18:57:02,051
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:33 - 2023-01-24 18:57:02,764
+dad - INFO - behdad is in the game on 'hard level', wallet:33 - 2023-01-24 18:57:05,523
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:33 - 2023-01-24 18:58:13,805
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:33 - 2023-01-24 18:58:14,481
+dad - INFO - behdad is in the game on 'hard level', wallet:33 - 2023-01-24 18:58:17,232
+dad - INFO - Show map, Player position: (2, 4) The position of the dragon: (8, 9) - 2023-01-24 18:58:17,240
+dad - INFO - Player position: (2, 4) and choose 'down' and current position is: (2, 5) - 2023-01-24 18:58:20,741
+dad - INFO - Dragon Moved Position: (8, 9) - 2023-01-24 18:58:20,741
+dad - INFO - Show map, Player position: (2, 5) The position of the dragon: (8, 9) - 2023-01-24 18:58:20,752
+dad - INFO - Player position: (2, 5) and choose 'down' and current position is: (2, 6) - 2023-01-24 18:58:22,743
+dad - INFO - Dragon Moved Position: (8, 9) - 2023-01-24 18:58:22,743
+dad - INFO - Show map, Player position: (2, 6) The position of the dragon: (8, 9) - 2023-01-24 18:58:22,757
+dad - INFO - Player position: (2, 6) and choose 'left' and current position is: (1, 6) - 2023-01-24 18:58:35,389
+dad - INFO - Dragon Moved Position: (8, 9) - 2023-01-24 18:58:35,389
+dad - INFO - Show map, Player position: (1, 6) The position of the dragon: (8, 9) - 2023-01-24 18:58:35,400
+dad - INFO - Player position: (1, 6) and choose 'right' and current position is: (2, 6) - 2023-01-24 18:58:37,549
+dad - INFO - Dragon Moved Position: (8, 9) - 2023-01-24 18:58:37,549
+dad - INFO - Show map, Player position: (2, 6) The position of the dragon: (8, 9) - 2023-01-24 18:58:37,560
+dad - INFO - Player position: (2, 6) and choose 'right' and current position is: (3, 6) - 2023-01-24 18:58:38,717
+dad - INFO - Dragon Moved Position: (8, 9) - 2023-01-24 18:58:38,717
+dad - INFO - Show map, Player position: (3, 6) The position of the dragon: (8, 9) - 2023-01-24 18:58:38,731
+dad - INFO - Player position: (3, 6) and choose 'right' and current position is: (4, 6) - 2023-01-24 18:58:39,901
+dad - INFO - Dragon Moved Position: (8, 9) - 2023-01-24 18:58:39,901
+dad - INFO - Show map, Player position: (4, 6) The position of the dragon: (8, 9) - 2023-01-24 18:58:39,912
+dad - INFO - Player position: (4, 6) and choose 'right' and current position is: (5, 6) - 2023-01-24 18:58:41,525
+dad - INFO - Dragon Moved Position: (8, 9) - 2023-01-24 18:58:41,525
+dad - INFO - Show map, Player position: (5, 6) The position of the dragon: (8, 9) - 2023-01-24 18:58:41,537
+dad - INFO - Player position: (5, 6) and choose 'down' and current position is: (5, 7) - 2023-01-24 18:58:51,517
+dad - INFO - Dragon Moved Position: (9, 9) - 2023-01-24 18:58:51,518
+dad - INFO - Show map, Player position: (5, 7) The position of the dragon: (9, 9) - 2023-01-24 18:58:51,529
+dad - INFO - Player position: (5, 7) and choose 'right' and current position is: (6, 7) - 2023-01-24 18:58:57,374
+dad - INFO - Dragon Moved Position: (9, 8) - 2023-01-24 18:58:57,374
+dad - INFO - Show map, Player position: (6, 7) The position of the dragon: (9, 8) - 2023-01-24 18:58:57,385
+dad - INFO - Player position: (6, 7) and choose 'up' and current position is: (6, 6) - 2023-01-24 18:59:00,406
+dad - INFO - Dragon Moved Position: (8, 8) - 2023-01-24 18:59:00,406
+dad - INFO - Show map, Player position: (6, 6) The position of the dragon: (8, 8) - 2023-01-24 18:59:00,418
+dad - INFO - Player position: (6, 6) and choose 'up' and current position is: (6, 5) - 2023-01-24 18:59:01,701
+dad - INFO - Dragon Moved Position: (7, 8) - 2023-01-24 18:59:01,702
+dad - INFO - Show map, Player position: (6, 5) The position of the dragon: (7, 8) - 2023-01-24 18:59:01,717
+dad - INFO - Player position: (6, 5) and choose 'left' and current position is: (5, 5) - 2023-01-24 18:59:03,869
+dad - INFO - Dragon Moved Position: (7, 7) - 2023-01-24 18:59:03,870
+dad - INFO - Show map, Player position: (5, 5) The position of the dragon: (7, 7) - 2023-01-24 18:59:03,881
+dad - INFO - Player position: (5, 5) and choose 'left' and current position is: (4, 5) - 2023-01-24 18:59:05,029
+dad - INFO - Dragon Moved Position: (7, 8) - 2023-01-24 18:59:05,030
+dad - INFO - Show map, Player position: (4, 5) The position of the dragon: (7, 8) - 2023-01-24 18:59:05,040
+dad - INFO - behdad entered the '-normal' and lost 10 coins, wallet:45 - 2023-01-24 19:00:20,840
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:45 - 2023-01-24 19:00:21,667
+dad - INFO - behdad is in the game on 'normal level', wallet:45 - 2023-01-24 19:00:24,413
+dad - INFO - Show map, Player position: (5, 1) The position of the dragon: (3, 5) - 2023-01-24 19:00:24,421
+dad - INFO - Player position: (5, 1) and choose 'down' and current position is: (5, 2) - 2023-01-24 19:00:26,825
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:00:26,825
+dad - INFO - Show map, Player position: (5, 2) The position of the dragon: (2, 5) - 2023-01-24 19:00:26,835
+dad - INFO - Player position: (5, 2) and choose 'left' and current position is: (4, 2) - 2023-01-24 19:00:31,648
+dad - INFO - Dragon Moved Position: (2, 4) - 2023-01-24 19:00:31,648
+dad - INFO - Show map, Player position: (4, 2) The position of the dragon: (2, 4) - 2023-01-24 19:00:31,659
+dad - INFO - Player position: (4, 2) and choose 'up' and current position is: (4, 1) - 2023-01-24 19:00:33,344
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:00:33,344
+dad - INFO - Show map, Player position: (4, 1) The position of the dragon: (2, 5) - 2023-01-24 19:00:33,355
+dad - INFO - Player position: (4, 1) and choose 'up' and current position is: (4, 0) - 2023-01-24 19:00:34,360
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:00:34,360
+dad - INFO - Show map, Player position: (4, 0) The position of the dragon: (2, 5) - 2023-01-24 19:00:34,370
+dad - INFO - Player position: (4, 0) and choose 'right' and current position is: (5, 0) - 2023-01-24 19:00:39,896
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:00:39,897
+dad - INFO - Show map, Player position: (5, 0) The position of the dragon: (2, 5) - 2023-01-24 19:00:39,907
+dad - INFO - Player position: (5, 0) and choose 'down' and current position is: (5, 1) - 2023-01-24 19:00:41,449
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:00:41,449
+dad - INFO - Show map, Player position: (5, 1) The position of the dragon: (2, 5) - 2023-01-24 19:00:41,458
+dad - INFO - Player position: (5, 1) and choose 'down' and current position is: (5, 2) - 2023-01-24 19:00:42,801
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:00:42,801
+dad - INFO - Show map, Player position: (5, 2) The position of the dragon: (2, 5) - 2023-01-24 19:00:42,811
+dad - INFO - Player position: (5, 2) and choose 'down' and current position is: (5, 3) - 2023-01-24 19:00:44,321
+dad - INFO - Dragon Moved Position: (2, 6) - 2023-01-24 19:00:44,321
+dad - INFO - Show map, Player position: (5, 3) The position of the dragon: (2, 6) - 2023-01-24 19:00:44,334
+dad - INFO - Player position: (5, 3) and choose 'down' and current position is: (5, 4) - 2023-01-24 19:00:46,265
+dad - INFO - Dragon Moved Position: (3, 6) - 2023-01-24 19:00:46,265
+dad - INFO - Show map, Player position: (5, 4) The position of the dragon: (3, 6) - 2023-01-24 19:00:46,275
+dad - INFO - Player position: (5, 4) and choose 'left' and current position is: (4, 4) - 2023-01-24 19:00:47,601
+dad - INFO - Dragon Moved Position: (2, 6) - 2023-01-24 19:00:47,601
+dad - INFO - Show map, Player position: (4, 4) The position of the dragon: (2, 6) - 2023-01-24 19:00:47,611
+dad - INFO - Player position: (4, 4) and choose 'down' and current position is: (4, 5) - 2023-01-24 19:00:50,465
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:00:50,465
+dad - INFO - Show map, Player position: (4, 5) The position of the dragon: (2, 5) - 2023-01-24 19:00:50,476
+dad - INFO - Player position: (4, 5) and choose 'left' and current position is: (3, 5) - 2023-01-24 19:00:52,753
+dad - INFO - Dragon Moved Position: (3, 5) - 2023-01-24 19:00:52,753
+dad - INFO - behdad lost the game, wallet:45 - 2023-01-24 19:00:52,755
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 19:18:40,642
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 19:18:41,611
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 19:18:44,361
+dad - INFO - Show map, Player position: (1, 8) The position of the dragon: (8, 0) - 2023-01-24 19:18:44,371
+dad - INFO - Player position: (1, 8) and choose 'up' and current position is: (1, 7) - 2023-01-24 19:18:58,490
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:18:58,491
+dad - INFO - Show map, Player position: (1, 7) The position of the dragon: (8, 0) - 2023-01-24 19:18:58,506
+dad - INFO - Player position: (1, 7) and choose 'right' and current position is: (2, 7) - 2023-01-24 19:19:03,538
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:03,538
+dad - INFO - Show map, Player position: (2, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:03,549
+dad - INFO - Player position: (2, 7) and choose 'right' and current position is: (3, 7) - 2023-01-24 19:19:05,146
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:05,147
+dad - INFO - Show map, Player position: (3, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:05,163
+dad - INFO - Player position: (3, 7) and choose 'right' and current position is: (4, 7) - 2023-01-24 19:19:07,394
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:07,394
+dad - INFO - Show map, Player position: (4, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:07,407
+dad - INFO - Player position: (4, 7) and choose 'right' and current position is: (5, 7) - 2023-01-24 19:19:09,138
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:09,138
+dad - INFO - Show map, Player position: (5, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:09,149
+dad - INFO - Show map, Player position: (5, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:10,805
+dad - INFO - Player position: (5, 7) and choose 'right' and current position is: (6, 7) - 2023-01-24 19:19:14,386
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:14,386
+dad - INFO - Show map, Player position: (6, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:14,397
+dad - INFO - Player position: (6, 7) and choose 'right' and current position is: (7, 7) - 2023-01-24 19:19:16,410
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:16,410
+dad - INFO - Show map, Player position: (7, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:16,422
+dad - INFO - Player position: (7, 7) and choose 'right' and current position is: (8, 7) - 2023-01-24 19:19:17,850
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:17,850
+dad - INFO - Show map, Player position: (8, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:17,861
+dad - INFO - Player position: (8, 7) and choose 'right' and current position is: (9, 7) - 2023-01-24 19:19:20,674
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:20,674
+dad - INFO - Show map, Player position: (9, 7) The position of the dragon: (8, 0) - 2023-01-24 19:19:20,685
+dad - INFO - Player position: (9, 7) and choose 'up' and current position is: (9, 6) - 2023-01-24 19:19:22,202
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:22,203
+dad - INFO - behdad was shown a hint - 2023-01-24 19:19:22,203
+dad - INFO - Show map, Player position: (9, 6) The position of the dragon: (8, 0) - 2023-01-24 19:19:22,214
+dad - INFO - Player position: (9, 6) and choose 'left' and current position is: (8, 6) - 2023-01-24 19:19:25,610
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:25,611
+dad - INFO - Show map, Player position: (8, 6) The position of the dragon: (8, 0) - 2023-01-24 19:19:25,621
+dad - INFO - Player position: (8, 6) and choose 'left' and current position is: (7, 6) - 2023-01-24 19:19:28,635
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:28,635
+dad - INFO - Show map, Player position: (7, 6) The position of the dragon: (8, 0) - 2023-01-24 19:19:28,649
+dad - INFO - Player position: (7, 6) and choose 'up' and current position is: (7, 5) - 2023-01-24 19:19:30,139
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:30,139
+dad - INFO - Show map, Player position: (7, 5) The position of the dragon: (8, 0) - 2023-01-24 19:19:30,150
+dad - INFO - Player position: (7, 5) and choose 'up' and current position is: (7, 4) - 2023-01-24 19:19:31,002
+dad - INFO - Dragon Moved Position: (8, 0) - 2023-01-24 19:19:31,002
+dad - INFO - Show map, Player position: (7, 4) The position of the dragon: (8, 0) - 2023-01-24 19:19:31,013
+dad - INFO - Show map, Player position: (7, 4) The position of the dragon: (8, 0) - 2023-01-24 19:19:32,110
+dad - INFO - Player position: (7, 4) and choose 'up' and current position is: (7, 3) - 2023-01-24 19:19:33,034
+dad - INFO - Dragon Moved Position: (8, 1) - 2023-01-24 19:19:33,034
+dad - INFO - Show map, Player position: (7, 3) The position of the dragon: (8, 1) - 2023-01-24 19:19:33,046
+dad - INFO - Player position: (7, 3) and choose 'right' and current position is: (8, 3) - 2023-01-24 19:19:41,938
+dad - INFO - Dragon Moved Position: (8, 2) - 2023-01-24 19:19:41,939
+dad - INFO - Show map, Player position: (8, 3) The position of the dragon: (8, 2) - 2023-01-24 19:19:41,952
+dad - INFO - Player position: (8, 3) and choose 'left' and current position is: (7, 3) - 2023-01-24 19:19:43,714
+dad - INFO - Dragon Moved Position: (9, 2) - 2023-01-24 19:19:43,715
+dad - INFO - Show map, Player position: (7, 3) The position of the dragon: (9, 2) - 2023-01-24 19:19:43,726
+dad - INFO - Player position: (7, 3) and choose 'down' and current position is: (7, 4) - 2023-01-24 19:19:45,739
+dad - INFO - Dragon Moved Position: (10, 2) - 2023-01-24 19:19:45,739
+dad - INFO - Show map, Player position: (7, 4) The position of the dragon: (10, 2) - 2023-01-24 19:19:45,751
+dad - INFO - Player position: (7, 4) and choose 'down' and current position is: (7, 5) - 2023-01-24 19:19:47,875
+dad - INFO - Dragon Moved Position: (10, 2) - 2023-01-24 19:19:47,876
+dad - INFO - Show map, Player position: (7, 5) The position of the dragon: (10, 2) - 2023-01-24 19:19:47,888
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 19:23:30,376
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 19:23:31,177
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 19:23:33,927
+dad - INFO - Show map, Player position: (4, 3) The position of the dragon: (5, 7) - 2023-01-24 19:23:33,937
+dad - INFO - Player position: (4, 3) and choose 'down' and current position is: (4, 4) - 2023-01-24 19:23:38,496
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:23:38,496
+dad - INFO - Show map, Player position: (4, 4) The position of the dragon: (6, 7) - 2023-01-24 19:23:38,508
+dad - INFO - Player position: (4, 4) and choose 'up' and current position is: (4, 3) - 2023-01-24 19:23:41,168
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:23:41,168
+dad - INFO - Show map, Player position: (4, 3) The position of the dragon: (6, 7) - 2023-01-24 19:23:41,180
+dad - INFO - Player position: (4, 3) and choose 'left' and current position is: (3, 3) - 2023-01-24 19:23:42,839
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:23:42,839
+dad - INFO - Show map, Player position: (3, 3) The position of the dragon: (6, 7) - 2023-01-24 19:23:42,850
+dad - INFO - Player position: (3, 3) and choose 'left' and current position is: (2, 3) - 2023-01-24 19:24:16,569
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:24:16,569
+dad - INFO - Show map, Player position: (2, 3) The position of the dragon: (6, 7) - 2023-01-24 19:24:16,581
+dad - INFO - Player position: (2, 3) and choose 'left' and current position is: (1, 3) - 2023-01-24 19:24:20,025
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:24:20,025
+dad - INFO - Show map, Player position: (1, 3) The position of the dragon: (6, 7) - 2023-01-24 19:24:20,036
+dad - INFO - Player position: (1, 3) and choose 'down' and current position is: (1, 4) - 2023-01-24 19:24:21,601
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:24:21,601
+dad - INFO - Show map, Player position: (1, 4) The position of the dragon: (6, 7) - 2023-01-24 19:24:21,612
+dad - INFO - Player position: (1, 4) and choose 'down' and current position is: (1, 5) - 2023-01-24 19:24:22,985
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:24:22,985
+dad - INFO - Show map, Player position: (1, 5) The position of the dragon: (6, 7) - 2023-01-24 19:24:22,996
+dad - INFO - Player position: (1, 5) and choose 'down' and current position is: (1, 6) - 2023-01-24 19:24:24,313
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:24:24,313
+dad - INFO - Show map, Player position: (1, 6) The position of the dragon: (6, 7) - 2023-01-24 19:24:24,326
+dad - INFO - Player position: (1, 6) and choose 'right' and current position is: (2, 6) - 2023-01-24 19:24:26,264
+dad - INFO - Dragon Moved Position: (6, 7) - 2023-01-24 19:24:26,265
+dad - INFO - Show map, Player position: (2, 6) The position of the dragon: (6, 7) - 2023-01-24 19:24:26,278
+dad - INFO - Player position: (2, 6) and choose 'right' and current position is: (3, 6) - 2023-01-24 19:24:27,657
+dad - INFO - Dragon Moved Position: (7, 7) - 2023-01-24 19:24:27,657
+dad - INFO - Show map, Player position: (3, 6) The position of the dragon: (7, 7) - 2023-01-24 19:24:27,665
+dad - INFO - Player position: (3, 6) and choose 'right' and current position is: (4, 6) - 2023-01-24 19:24:37,689
+dad - INFO - Dragon Moved Position: (8, 7) - 2023-01-24 19:24:37,690
+dad - INFO - Show map, Player position: (4, 6) The position of the dragon: (8, 7) - 2023-01-24 19:24:37,701
+dad - INFO - Player position: (4, 6) and choose 'right' and current position is: (5, 6) - 2023-01-24 19:24:39,217
+dad - INFO - Dragon Moved Position: (8, 8) - 2023-01-24 19:24:39,217
+dad - INFO - Show map, Player position: (5, 6) The position of the dragon: (8, 8) - 2023-01-24 19:24:39,229
+dad - INFO - Player position: (5, 6) and choose 'right' and current position is: (6, 6) - 2023-01-24 19:24:41,185
+dad - INFO - Dragon Moved Position: (8, 7) - 2023-01-24 19:24:41,186
+dad - INFO - Show map, Player position: (6, 6) The position of the dragon: (8, 7) - 2023-01-24 19:24:41,197
+dad - INFO - Player position: (6, 6) and choose 'down' and current position is: (6, 7) - 2023-01-24 19:24:42,553
+dad - INFO - Dragon Moved Position: (7, 7) - 2023-01-24 19:24:42,554
+dad - INFO - Show map, Player position: (6, 7) The position of the dragon: (7, 7) - 2023-01-24 19:24:42,565
+dad - INFO - Player position: (6, 7) and choose 'up' and current position is: (6, 6) - 2023-01-24 19:24:44,297
+dad - INFO - Dragon Moved Position: (7, 6) - 2023-01-24 19:24:44,297
+dad - INFO - Show map, Player position: (6, 6) The position of the dragon: (7, 6) - 2023-01-24 19:24:44,310
+dad - INFO - Player position: (6, 6) and choose 'right' and current position is: (7, 6) - 2023-01-24 19:24:45,881
+dad - INFO - Dragon Moved Position: (6, 6) - 2023-01-24 19:24:45,881
+dad - INFO - Show map, Player position: (7, 6) The position of the dragon: (6, 6) - 2023-01-24 19:24:45,893
+dad - INFO - Player position: (7, 6) and choose 'right' and current position is: (8, 6) - 2023-01-24 19:24:47,609
+dad - INFO - Dragon Moved Position: (7, 6) - 2023-01-24 19:24:47,610
+dad - INFO - Show map, Player position: (8, 6) The position of the dragon: (7, 6) - 2023-01-24 19:24:47,624
+dad - INFO - Player position: (8, 6) and choose 'up' and current position is: (8, 5) - 2023-01-24 19:24:49,073
+dad - INFO - Dragon Moved Position: (7, 7) - 2023-01-24 19:24:49,073
+dad - INFO - Show map, Player position: (8, 5) The position of the dragon: (7, 7) - 2023-01-24 19:24:49,085
+dad - INFO - Player position: (8, 5) and choose 'up' and current position is: (8, 4) - 2023-01-24 19:24:49,937
+dad - INFO - Dragon Moved Position: (7, 6) - 2023-01-24 19:24:49,938
+dad - INFO - Show map, Player position: (8, 4) The position of the dragon: (7, 6) - 2023-01-24 19:24:49,949
+dad - INFO - Player position: (8, 4) and choose 'left' and current position is: (7, 4) - 2023-01-24 19:24:53,530
+dad - INFO - Dragon Moved Position: (7, 7) - 2023-01-24 19:24:53,530
+dad - INFO - Show map, Player position: (7, 4) The position of the dragon: (7, 7) - 2023-01-24 19:24:53,541
+dad - INFO - Player position: (7, 4) and choose 'up' and current position is: (7, 3) - 2023-01-24 19:24:59,602
+dad - INFO - Dragon Moved Position: (7, 8) - 2023-01-24 19:24:59,602
+dad - INFO - Show map, Player position: (7, 3) The position of the dragon: (7, 8) - 2023-01-24 19:24:59,614
+dad - INFO - Player position: (7, 3) and choose 'up' and current position is: (7, 2) - 2023-01-24 19:25:01,057
+dad - INFO - Dragon Moved Position: (7, 8) - 2023-01-24 19:25:01,058
+dad - INFO - Show map, Player position: (7, 2) The position of the dragon: (7, 8) - 2023-01-24 19:25:01,069
+dad - INFO - Player position: (7, 2) and choose 'right' and current position is: (8, 2) - 2023-01-24 19:25:05,753
+dad - INFO - Dragon Moved Position: (7, 8) - 2023-01-24 19:25:05,754
+dad - INFO - Show map, Player position: (8, 2) The position of the dragon: (7, 8) - 2023-01-24 19:25:05,773
+dad - INFO - Player position: (8, 2) and choose 'right' and current position is: (9, 2) - 2023-01-24 19:25:07,026
+dad - INFO - Dragon Moved Position: (7, 8) - 2023-01-24 19:25:07,026
+dad - INFO - Show map, Player position: (9, 2) The position of the dragon: (7, 8) - 2023-01-24 19:25:07,038
+dad - INFO - Player position: (9, 2) and choose 'right' and current position is: (10, 2) - 2023-01-24 19:25:08,626
+dad - INFO - Dragon Moved Position: (7, 8) - 2023-01-24 19:25:08,627
+dad - INFO - Show map, Player position: (10, 2) The position of the dragon: (7, 8) - 2023-01-24 19:25:08,638
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 19:26:15,733
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 19:26:16,927
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 19:26:19,680
+dad - INFO - Show map, Player position: (7, 7) The position of the dragon: (5, 1) - 2023-01-24 19:26:19,691
+dad - INFO - Player position: (7, 7) and choose 'up' and current position is: (7, 6) - 2023-01-24 19:26:22,493
+dad - INFO - Dragon Moved Position: (5, 1) - 2023-01-24 19:26:22,493
+dad - INFO - Show map, Player position: (7, 6) The position of the dragon: (5, 1) - 2023-01-24 19:26:22,503
+dad - INFO - Player position: (7, 6) and choose 'up' and current position is: (7, 5) - 2023-01-24 19:26:23,284
+dad - INFO - Dragon Moved Position: (5, 1) - 2023-01-24 19:26:23,284
+dad - INFO - Show map, Player position: (7, 5) The position of the dragon: (5, 1) - 2023-01-24 19:26:23,295
+dad - INFO - Player position: (7, 5) and choose 'up' and current position is: (7, 4) - 2023-01-24 19:26:23,989
+dad - INFO - Dragon Moved Position: (5, 0) - 2023-01-24 19:26:23,989
+dad - INFO - Show map, Player position: (7, 4) The position of the dragon: (5, 0) - 2023-01-24 19:26:24,000
+dad - INFO - Player position: (7, 4) and choose 'up' and current position is: (7, 3) - 2023-01-24 19:26:27,037
+dad - INFO - Dragon Moved Position: (5, 1) - 2023-01-24 19:26:27,037
+dad - INFO - Show map, Player position: (7, 3) The position of the dragon: (5, 1) - 2023-01-24 19:26:27,048
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 19:27:45,342
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 19:27:46,313
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 19:27:49,069
+dad - INFO - Show map, Player position: (0, 4) The position of the dragon: (3, 4) - 2023-01-24 19:27:49,079
+dad - INFO - Player position: (0, 4) and choose 'up' and current position is: (0, 3) - 2023-01-24 19:27:55,063
+dad - INFO - Dragon Moved Position: (3, 3) - 2023-01-24 19:27:55,064
+dad - INFO - Show map, Player position: (0, 3) The position of the dragon: (3, 3) - 2023-01-24 19:27:55,075
+dad - INFO - Player position: (0, 3) and choose 'up' and current position is: (0, 2) - 2023-01-24 19:27:59,287
+dad - INFO - Dragon Moved Position: (3, 2) - 2023-01-24 19:27:59,287
+dad - INFO - Show map, Player position: (0, 2) The position of the dragon: (3, 2) - 2023-01-24 19:27:59,298
+dad - INFO - Player position: (0, 2) and choose 'down' and current position is: (0, 3) - 2023-01-24 19:28:01,272
+dad - INFO - Dragon Moved Position: (4, 2) - 2023-01-24 19:28:01,272
+dad - INFO - Show map, Player position: (0, 3) The position of the dragon: (4, 2) - 2023-01-24 19:28:01,281
+dad - INFO - Player position: (0, 3) and choose 'right' and current position is: (1, 3) - 2023-01-24 19:28:05,848
+dad - INFO - Dragon Moved Position: (3, 2) - 2023-01-24 19:28:05,848
+dad - INFO - Show map, Player position: (1, 3) The position of the dragon: (3, 2) - 2023-01-24 19:28:05,859
+dad - INFO - Player position: (1, 3) and choose 'down' and current position is: (1, 4) - 2023-01-24 19:28:07,624
+dad - INFO - Dragon Moved Position: (2, 2) - 2023-01-24 19:28:07,624
+dad - INFO - Show map, Player position: (1, 4) The position of the dragon: (2, 2) - 2023-01-24 19:28:07,635
+dad - INFO - Player position: (1, 4) and choose 'down' and current position is: (1, 5) - 2023-01-24 19:28:09,632
+dad - INFO - Dragon Moved Position: (2, 3) - 2023-01-24 19:28:09,633
+dad - INFO - Show map, Player position: (1, 5) The position of the dragon: (2, 3) - 2023-01-24 19:28:09,649
+dad - INFO - Player position: (1, 5) and choose 'down' and current position is: (1, 6) - 2023-01-24 19:28:11,624
+dad - INFO - Dragon Moved Position: (2, 4) - 2023-01-24 19:28:11,624
+dad - INFO - Show map, Player position: (1, 6) The position of the dragon: (2, 4) - 2023-01-24 19:28:11,635
+dad - INFO - Show map, Player position: (1, 6) The position of the dragon: (2, 4) - 2023-01-24 19:28:14,611
+dad - INFO - Player position: (1, 6) and choose 'down' and current position is: (1, 7) - 2023-01-24 19:28:21,384
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:28:21,384
+dad - INFO - Show map, Player position: (1, 7) The position of the dragon: (2, 5) - 2023-01-24 19:28:21,395
+dad - INFO - Player position: (1, 7) and choose 'right' and current position is: (2, 7) - 2023-01-24 19:28:24,304
+dad - INFO - Dragon Moved Position: (2, 4) - 2023-01-24 19:28:24,304
+dad - INFO - Show map, Player position: (2, 7) The position of the dragon: (2, 4) - 2023-01-24 19:28:24,315
+dad - INFO - Player position: (2, 7) and choose 'left' and current position is: (1, 7) - 2023-01-24 19:28:27,944
+dad - INFO - Dragon Moved Position: (2, 5) - 2023-01-24 19:28:27,944
+dad - INFO - Show map, Player position: (1, 7) The position of the dragon: (2, 5) - 2023-01-24 19:28:27,955
+dad - INFO - Player position: (1, 7) and choose 'down' and current position is: (1, 8) - 2023-01-24 19:28:32,321
+dad - INFO - Dragon Moved Position: (2, 4) - 2023-01-24 19:28:32,321
+dad - INFO - Show map, Player position: (1, 8) The position of the dragon: (2, 4) - 2023-01-24 19:28:32,337
+dad - INFO - Player position: (1, 8) and choose 'up' and current position is: (1, 7) - 2023-01-24 19:28:35,629
+dad - INFO - Dragon Moved Position: (2, 3) - 2023-01-24 19:28:35,629
+dad - INFO - Show map, Player position: (1, 7) The position of the dragon: (2, 3) - 2023-01-24 19:28:35,652
+dad - INFO - Player position: (1, 7) and choose 'up' and current position is: (1, 6) - 2023-01-24 19:28:36,881
+dad - INFO - Dragon Moved Position: (2, 4) - 2023-01-24 19:28:36,881
+dad - INFO - Show map, Player position: (1, 6) The position of the dragon: (2, 4) - 2023-01-24 19:28:36,892
+dad - INFO - Player position: (1, 6) and choose 'down' and current position is: (1, 7) - 2023-01-24 19:28:39,193
+dad - INFO - Dragon Moved Position: (3, 4) - 2023-01-24 19:28:39,193
+dad - INFO - Show map, Player position: (1, 7) The position of the dragon: (3, 4) - 2023-01-24 19:28:39,203
+dad - INFO - Player position: (1, 7) and choose 'down' and current position is: (1, 8) - 2023-01-24 19:28:42,553
+dad - INFO - Dragon Moved Position: (3, 4) - 2023-01-24 19:28:42,553
+dad - INFO - Show map, Player position: (1, 8) The position of the dragon: (3, 4) - 2023-01-24 19:28:42,563
+dad - INFO - Player position: (1, 8) and choose 'down' and current position is: (1, 9) - 2023-01-24 19:28:44,993
+dad - INFO - Dragon Moved Position: (3, 4) - 2023-01-24 19:28:44,993
+dad - INFO - Show map, Player position: (1, 9) The position of the dragon: (3, 4) - 2023-01-24 19:28:45,004
+dad - INFO - Player position: (1, 9) and choose 'right' and current position is: (2, 9) - 2023-01-24 19:28:47,432
+dad - INFO - Dragon Moved Position: (3, 4) - 2023-01-24 19:28:47,433
+dad - INFO - behdad was shown a hint - 2023-01-24 19:28:47,433
+dad - INFO - Show map, Player position: (2, 9) The position of the dragon: (3, 4) - 2023-01-24 19:28:47,443
+dad - INFO - Player position: (2, 9) and choose 'right' and current position is: (3, 9) - 2023-01-24 19:28:49,472
+dad - INFO - Dragon Moved Position: (3, 4) - 2023-01-24 19:28:49,473
+dad - INFO - Show map, Player position: (3, 9) The position of the dragon: (3, 4) - 2023-01-24 19:28:49,483
+dad - INFO - Player position: (3, 9) and choose 'right' and current position is: (4, 9) - 2023-01-24 19:28:51,329
+dad - INFO - Dragon Moved Position: (3, 4) - 2023-01-24 19:28:51,329
+dad - INFO - Show map, Player position: (4, 9) The position of the dragon: (3, 4) - 2023-01-24 19:28:51,341
+dad - INFO - Player position: (4, 9) and choose 'up' and current position is: (4, 8) - 2023-01-24 19:28:52,936
+dad - INFO - Dragon Moved Position: (3, 4) - 2023-01-24 19:28:52,937
+dad - INFO - Show map, Player position: (4, 8) The position of the dragon: (3, 4) - 2023-01-24 19:28:52,948
+dad - INFO - Player position: (4, 8) and choose 'up' and current position is: (4, 7) - 2023-01-24 19:28:53,761
+dad - INFO - Dragon Moved Position: (3, 3) - 2023-01-24 19:28:53,761
+dad - INFO - Show map, Player position: (4, 7) The position of the dragon: (3, 3) - 2023-01-24 19:28:53,772
+dad - INFO - Player position: (4, 7) and choose 'up' and current position is: (4, 6) - 2023-01-24 19:28:55,865
+dad - INFO - Dragon Moved Position: (3, 2) - 2023-01-24 19:28:55,865
+dad - INFO - Show map, Player position: (4, 6) The position of the dragon: (3, 2) - 2023-01-24 19:28:55,876
+dad - INFO - Player position: (4, 6) and choose 'right' and current position is: (5, 6) - 2023-01-24 19:28:58,665
+dad - INFO - Dragon Moved Position: (3, 2) - 2023-01-24 19:28:58,665
+dad - INFO - Show map, Player position: (5, 6) The position of the dragon: (3, 2) - 2023-01-24 19:28:58,676
+dad - INFO - Player position: (5, 6) and choose 'up' and current position is: (5, 5) - 2023-01-24 19:29:00,305
+dad - INFO - Dragon Moved Position: (2, 2) - 2023-01-24 19:29:00,305
+dad - INFO - Show map, Player position: (5, 5) The position of the dragon: (2, 2) - 2023-01-24 19:29:00,317
+dad - INFO - Player position: (5, 5) and choose 'up' and current position is: (5, 4) - 2023-01-24 19:29:01,353
+dad - INFO - Dragon Moved Position: (2, 3) - 2023-01-24 19:29:01,353
+dad - INFO - Show map, Player position: (5, 4) The position of the dragon: (2, 3) - 2023-01-24 19:29:01,364
+dad - INFO - Player position: (5, 4) and choose 'right' and current position is: (6, 4) - 2023-01-24 19:29:03,297
+dad - INFO - Dragon Moved Position: (2, 3) - 2023-01-24 19:29:03,297
+dad - INFO - behdad won the game and received 40 coins, wallet:63 - 2023-01-24 19:29:03,298
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 19:52:26,431
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 19:52:28,988
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 19:52:31,744
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 19:53:16,155
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 19:53:17,269
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 19:53:20,019
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 22:34:33,512
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 22:34:34,609
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 22:34:37,362
+dad - INFO - Show map, Player position: (9, 11) The position of the dragon: (1, 4) - 2023-01-24 22:34:37,370
+dad - INFO - Player position: (9, 11) and choose 'up' and current position is: (9, 10) - 2023-01-24 22:34:41,850
+dad - INFO - Dragon Moved Position: (1, 4) - 2023-01-24 22:34:41,850
+dad - INFO - Show map, Player position: (9, 10) The position of the dragon: (1, 4) - 2023-01-24 22:34:41,861
+dad - INFO - Player position: (9, 10) and choose 'left' and current position is: (8, 10) - 2023-01-24 22:34:44,049
+dad - INFO - Dragon Moved Position: (1, 4) - 2023-01-24 22:34:44,049
+dad - INFO - Show map, Player position: (8, 10) The position of the dragon: (1, 4) - 2023-01-24 22:34:44,059
+dad - INFO - Player position: (8, 10) and choose 'left' and current position is: (7, 10) - 2023-01-24 22:34:45,807
+dad - INFO - Dragon Moved Position: (1, 4) - 2023-01-24 22:34:45,807
+dad - INFO - Show map, Player position: (7, 10) The position of the dragon: (1, 4) - 2023-01-24 22:34:45,815
+dad - INFO - Player position: (7, 10) and choose 'up' and current position is: (7, 9) - 2023-01-24 22:34:49,540
+dad - INFO - Dragon Moved Position: (1, 4) - 2023-01-24 22:34:49,541
+dad - INFO - Show map, Player position: (7, 9) The position of the dragon: (1, 4) - 2023-01-24 22:34:49,551
+dad - INFO - Player position: (7, 9) and choose 'up' and current position is: (7, 8) - 2023-01-24 22:34:51,002
+dad - INFO - Dragon Moved Position: (1, 4) - 2023-01-24 22:34:51,002
+dad - INFO - Show map, Player position: (7, 8) The position of the dragon: (1, 4) - 2023-01-24 22:34:51,014
+dad - INFO - Player position: (7, 8) and choose 'right' and current position is: (8, 8) - 2023-01-24 22:34:53,298
+dad - INFO - Dragon Moved Position: (1, 4) - 2023-01-24 22:34:53,298
+dad - INFO - Show map, Player position: (8, 8) The position of the dragon: (1, 4) - 2023-01-24 22:34:53,310
+dad - INFO - Player position: (8, 8) and choose 'up' and current position is: (8, 7) - 2023-01-24 22:34:55,316
+dad - INFO - Dragon Moved Position: (1, 4) - 2023-01-24 22:34:55,316
+dad - INFO - Show map, Player position: (8, 7) The position of the dragon: (1, 4) - 2023-01-24 22:34:55,325
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 22:47:31,832
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 22:47:32,718
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 22:47:35,470
+dad - INFO - Show map, Player position: (1, 11) The position of the dragon: (8, 11) - 2023-01-24 22:47:35,476
+dad - INFO - Player position: (1, 11) and choose 'left' and current position is: (0, 11) - 2023-01-24 22:47:38,293
+dad - INFO - Dragon Moved Position: (8, 11) - 2023-01-24 22:47:38,293
+dad - INFO - Show map, Player position: (0, 11) The position of the dragon: (8, 11) - 2023-01-24 22:47:38,304
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 22:50:26,532
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 22:50:27,230
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 22:50:29,982
+dad - INFO - Show map, Player position: (0, 4) The position of the dragon: (6, 1) - 2023-01-24 22:50:29,988
+dad - INFO - Player position: (0, 4) and choose 'right' and current position is: (1, 4) - 2023-01-24 22:50:36,677
+dad - INFO - Dragon Moved Position: (6, 1) - 2023-01-24 22:50:36,678
+dad - INFO - Show map, Player position: (1, 4) The position of the dragon: (6, 1) - 2023-01-24 22:50:36,689
+dad - INFO - Player position: (1, 4) and choose 'down' and current position is: (1, 5) - 2023-01-24 22:50:42,646
+dad - INFO - Dragon Moved Position: (6, 1) - 2023-01-24 22:50:42,646
+dad - INFO - Show map, Player position: (1, 5) The position of the dragon: (6, 1) - 2023-01-24 22:50:42,657
+dad - INFO - Player position: (1, 5) and choose 'right' and current position is: (2, 5) - 2023-01-24 22:50:44,407
+dad - INFO - Dragon Moved Position: (6, 1) - 2023-01-24 22:50:44,407
+dad - INFO - Show map, Player position: (2, 5) The position of the dragon: (6, 1) - 2023-01-24 22:50:44,417
+dad - INFO - Player position: (2, 5) and choose 'right' and current position is: (3, 5) - 2023-01-24 22:50:45,764
+dad - INFO - Dragon Moved Position: (6, 1) - 2023-01-24 22:50:45,764
+dad - INFO - Show map, Player position: (3, 5) The position of the dragon: (6, 1) - 2023-01-24 22:50:45,776
+dad - INFO - Player position: (3, 5) and choose 'right' and current position is: (4, 5) - 2023-01-24 22:50:47,433
+dad - INFO - Dragon Moved Position: (6, 1) - 2023-01-24 22:50:47,433
+dad - INFO - Show map, Player position: (4, 5) The position of the dragon: (6, 1) - 2023-01-24 22:50:47,443
+dad - INFO - Player position: (4, 5) and choose 'up' and current position is: (4, 4) - 2023-01-24 22:50:48,697
+dad - INFO - Dragon Moved Position: (6, 2) - 2023-01-24 22:50:48,697
+dad - INFO - Show map, Player position: (4, 4) The position of the dragon: (6, 2) - 2023-01-24 22:50:48,709
+dad - INFO - Player position: (4, 4) and choose 'down' and current position is: (4, 5) - 2023-01-24 22:50:52,644
+dad - INFO - Dragon Moved Position: (7, 2) - 2023-01-24 22:50:52,644
+dad - INFO - Show map, Player position: (4, 5) The position of the dragon: (7, 2) - 2023-01-24 22:50:52,656
+dad - INFO - Player position: (4, 5) and choose 'left' and current position is: (3, 5) - 2023-01-24 22:50:54,660
+dad - INFO - Dragon Moved Position: (7, 2) - 2023-01-24 22:50:54,661
+dad - INFO - Show map, Player position: (3, 5) The position of the dragon: (7, 2) - 2023-01-24 22:50:54,677
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-24 22:52:20,974
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-24 22:52:21,847
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-24 22:52:24,594
+dad - INFO - Show map, Player position: (10, 3) The position of the dragon: (8, 5) - 2023-01-24 22:52:24,602
+dad - INFO - Player position: (10, 3) and choose 'up' and current position is: (10, 2) - 2023-01-24 22:52:27,329
+dad - INFO - Dragon Moved Position: (8, 6) - 2023-01-24 22:52:27,329
+dad - INFO - Show map, Player position: (10, 2) The position of the dragon: (8, 6) - 2023-01-24 22:52:27,339
+dad - INFO - Player position: (10, 2) and choose 'right' and current position is: (11, 2) - 2023-01-24 22:52:31,616
+dad - INFO - Show map, Player position: (11, 2) The position of the dragon: (8, 6) - 2023-01-24 22:52:31,626
+dad - INFO - Player position: (11, 2) and choose 'up' and current position is: (11, 1) - 2023-01-24 22:52:33,138
+dad - INFO - behdad won the game and received 40 coins, wallet:63 - 2023-01-24 22:52:33,149
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:41 - 2023-01-24 22:52:39,355
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:41 - 2023-01-24 22:52:40,789
+dad - INFO - behdad is in the game on 'hard level', wallet:41 - 2023-01-24 22:52:43,540
+dad - INFO - Show map, Player position: (7, 10) The position of the dragon: (3, 3) - 2023-01-24 22:52:43,548
+dad - INFO - Player position: (7, 10) and choose 'right' and current position is: (8, 10) - 2023-01-24 22:52:47,335
+dad - INFO - Show map, Player position: (8, 10) The position of the dragon: (3, 3) - 2023-01-24 22:52:47,348
+dad - INFO - Player position: (8, 10) and choose 'up' and current position is: (8, 9) - 2023-01-24 22:52:49,429
+dad - INFO - Show map, Player position: (8, 9) The position of the dragon: (3, 3) - 2023-01-24 22:52:49,442
+dad - INFO - Show map, Player position: (8, 9) The position of the dragon: (3, 3) - 2023-01-24 22:52:52,115
+dad - INFO - Player position: (8, 9) and choose 'up' and current position is: (8, 8) - 2023-01-24 22:52:53,516
+dad - INFO - Show map, Player position: (8, 8) The position of the dragon: (3, 3) - 2023-01-24 22:52:53,528
+dad - INFO - Player position: (8, 8) and choose 'up' and current position is: (8, 7) - 2023-01-24 22:52:54,445
+dad - INFO - Show map, Player position: (8, 7) The position of the dragon: (3, 3) - 2023-01-24 22:52:54,457
+dad - INFO - Player position: (8, 7) and choose 'up' and current position is: (8, 6) - 2023-01-24 22:52:55,610
+dad - INFO - Show map, Player position: (8, 6) The position of the dragon: (3, 3) - 2023-01-24 22:52:55,619
+dad - INFO - Player position: (8, 6) and choose 'up' and current position is: (8, 5) - 2023-01-24 22:52:56,552
+dad - INFO - Show map, Player position: (8, 5) The position of the dragon: (3, 3) - 2023-01-24 22:52:56,567
+dad - INFO - Player position: (8, 5) and choose 'up' and current position is: (8, 4) - 2023-01-24 22:52:57,260
+dad - INFO - Show map, Player position: (8, 4) The position of the dragon: (3, 3) - 2023-01-24 22:52:57,272
+dad - INFO - Player position: (8, 4) and choose 'right' and current position is: (9, 4) - 2023-01-24 22:52:58,864
+dad - INFO - Show map, Player position: (9, 4) The position of the dragon: (3, 3) - 2023-01-24 22:52:58,877
+dad - INFO - Player position: (9, 4) and choose 'right' and current position is: (10, 4) - 2023-01-24 22:53:01,138
+dad - INFO - behdad was shown a hint - 2023-01-24 22:53:01,138
+dad - INFO - Show map, Player position: (10, 4) The position of the dragon: (3, 3) - 2023-01-24 22:53:01,146
+dad - INFO - behdad entered the '-hard' and lost 22 coins, wallet:23 - 2023-01-25 10:40:03,476
+dad - INFO - behdad entered the game with a counter of 1 2 3, wallet:23 - 2023-01-25 10:40:04,641
+dad - INFO - behdad is in the game on 'hard level', wallet:23 - 2023-01-25 10:40:07,497
+dad - INFO - Show map, Player position: (3, 11) The position of the dragon: (3, 0) - 2023-01-25 10:40:07,539
+dad - INFO - Player position: (3, 11) and choose 'up' and current position is: (3, 10) - 2023-01-25 10:40:11,411
+dad - INFO - Show map, Player position: (3, 10) The position of the dragon: (3, 0) - 2023-01-25 10:40:11,422
+dad - INFO - Player position: (3, 10) and choose 'up' and current position is: (3, 9) - 2023-01-25 10:40:12,627
+dad - INFO - Show map, Player position: (3, 9) The position of the dragon: (3, 0) - 2023-01-25 10:40:12,644
+dad - INFO - Player position: (3, 9) and choose 'up' and current position is: (3, 8) - 2023-01-25 10:40:13,530
+dad - INFO - Show map, Player position: (3, 8) The position of the dragon: (3, 0) - 2023-01-25 10:40:13,543
+dad - INFO - Player position: (3, 8) and choose 'right' and current position is: (4, 8) - 2023-01-25 10:40:15,333
+dad - INFO - Show map, Player position: (4, 8) The position of the dragon: (3, 0) - 2023-01-25 10:40:15,347
+dad - INFO - Player position: (4, 8) and choose 'right' and current position is: (5, 8) - 2023-01-25 10:40:17,604
+dad - INFO - behdad was shown a hint - 2023-01-25 10:40:35,495
+dad - INFO - Show map, Player position: (5, 8) The position of the dragon: (3, 0) - 2023-01-25 10:40:35,520
+dad - INFO - Player position: (5, 8) and choose 'up' and current position is: (5, 7) - 2023-01-25 10:40:38,365
+dad - INFO - Show map, Player position: (5, 7) The position of the dragon: (3, 0) - 2023-01-25 10:40:38,410
