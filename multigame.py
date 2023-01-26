@@ -299,6 +299,7 @@ while loop_condition_main_page:
                                                             sleep(2)
                                                         elif value.player == value.hint and input_command != "-easy":
                                                             draw_map.hint = None
+                                                            value.hint = None
                                                             system("clear")
                                                             input("Please unmute your speaker\nPress 'enter' and listen carefully ")
                                                             # Tested with Mac OS
