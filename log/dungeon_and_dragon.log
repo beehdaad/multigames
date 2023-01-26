@@ -517,3 +517,71 @@ dad - INFO - behdad was shown a hint - 2023-01-25 10:40:35,495
 dad - INFO - Show map, Player position: (5, 8) The position of the dragon: (3, 0) - 2023-01-25 10:40:35,520
 dad - INFO - Player position: (5, 8) and choose 'up' and current position is: (5, 7) - 2023-01-25 10:40:38,365
 dad - INFO - Show map, Player position: (5, 7) The position of the dragon: (3, 0) - 2023-01-25 10:40:38,410
+dad - INFO - behdad is in the game on 'normal level', wallet:35 - 2023-01-26 23:06:26,194
+dad - INFO - Show map, Player position: (0, 7) The position of the dragon: (2, 3) - 2023-01-26 23:06:26,204
+dad - INFO - Player position: (0, 7) and choose 'up' and current position is: (0, 6) - 2023-01-26 23:06:30,602
+dad - INFO - Dragon Moved Position: (2, 2) - 2023-01-26 23:06:30,602
+dad - INFO - Show map, Player position: (0, 6) The position of the dragon: (2, 2) - 2023-01-26 23:06:30,613
+dad - INFO - Player position: (0, 6) and choose 'right' and current position is: (1, 6) - 2023-01-26 23:06:36,052
+dad - INFO - Show map, Player position: (1, 6) The position of the dragon: (2, 2) - 2023-01-26 23:06:36,064
+dad - INFO - Player position: (1, 6) and choose 'right' and current position is: (2, 6) - 2023-01-26 23:06:38,107
+dad - INFO - Dragon Moved Position: (1, 2) - 2023-01-26 23:06:38,107
+dad - INFO - Show map, Player position: (2, 6) The position of the dragon: (1, 2) - 2023-01-26 23:06:38,124
+dad - INFO - Player position: (2, 6) and choose 'down' and current position is: (2, 7) - 2023-01-26 23:06:41,054
+dad - INFO - Show map, Player position: (2, 7) The position of the dragon: (1, 2) - 2023-01-26 23:06:41,077
+dad - INFO - Player position: (2, 7) and choose 'right' and current position is: (3, 7) - 2023-01-26 23:06:43,128
+dad - INFO - Show map, Player position: (3, 7) The position of the dragon: (1, 2) - 2023-01-26 23:06:43,146
+dad - INFO - Show map, Player position: (3, 7) The position of the dragon: (1, 2) - 2023-01-26 23:06:44,731
+dad - INFO - Player position: (3, 7) and choose 'right' and current position is: (4, 7) - 2023-01-26 23:06:46,254
+dad - INFO - Show map, Player position: (4, 7) The position of the dragon: (1, 2) - 2023-01-26 23:06:46,273
+dad - INFO - Player position: (4, 7) and choose 'right' and current position is: (5, 7) - 2023-01-26 23:06:47,902
+dad - INFO - Show map, Player position: (5, 7) The position of the dragon: (1, 2) - 2023-01-26 23:06:47,915
+dad - INFO - Player position: (5, 7) and choose 'right' and current position is: (6, 7) - 2023-01-26 23:06:49,266
+dad - INFO - Show map, Player position: (6, 7) The position of the dragon: (1, 2) - 2023-01-26 23:06:49,278
+dad - INFO - Player position: (6, 7) and choose 'right' and current position is: (7, 7) - 2023-01-26 23:06:50,665
+dad - INFO - Show map, Player position: (7, 7) The position of the dragon: (1, 2) - 2023-01-26 23:06:50,682
+dad - INFO - Player position: (7, 7) and choose 'up' and current position is: (7, 6) - 2023-01-26 23:06:52,027
+dad - INFO - Show map, Player position: (7, 6) The position of the dragon: (1, 2) - 2023-01-26 23:06:52,035
+dad - INFO - Player position: (7, 6) and choose 'up' and current position is: (7, 5) - 2023-01-26 23:06:53,060
+dad - INFO - Show map, Player position: (7, 5) The position of the dragon: (1, 2) - 2023-01-26 23:06:53,072
+dad - INFO - Player position: (7, 5) and choose 'up' and current position is: (7, 4) - 2023-01-26 23:06:53,922
+dad - INFO - Show map, Player position: (7, 4) The position of the dragon: (1, 2) - 2023-01-26 23:06:53,948
+dad - INFO - Player position: (7, 4) and choose 'up' and current position is: (7, 3) - 2023-01-26 23:06:54,774
+dad - INFO - Show map, Player position: (7, 3) The position of the dragon: (1, 2) - 2023-01-26 23:06:54,783
+dad - INFO - Player position: (7, 3) and choose 'up' and current position is: (7, 2) - 2023-01-26 23:06:57,488
+dad - INFO - behdad was shown a hint - 2023-01-26 23:07:09,189
+dad - INFO - Show map, Player position: (7, 2) The position of the dragon: (1, 2) - 2023-01-26 23:07:09,196
+dad - INFO - Player position: (7, 2) and choose 'up' and current position is: (7, 1) - 2023-01-26 23:07:12,312
+dad - INFO - Show map, Player position: (7, 1) The position of the dragon: (1, 2) - 2023-01-26 23:07:12,325
+dad - INFO - Player position: (7, 1) and choose 'left' and current position is: (6, 1) - 2023-01-26 23:07:14,134
+dad - INFO - Show map, Player position: (6, 1) The position of the dragon: (1, 2) - 2023-01-26 23:07:14,147
+dad - INFO - Player position: (6, 1) and choose 'left' and current position is: (5, 1) - 2023-01-26 23:07:22,459
+dad - INFO - Show map, Player position: (5, 1) The position of the dragon: (1, 2) - 2023-01-26 23:07:22,477
+dad - INFO - Player position: (5, 1) and choose 'left' and current position is: (4, 1) - 2023-01-26 23:07:23,794
+dad - INFO - Dragon Moved Position: (2, 2) - 2023-01-26 23:07:23,794
+dad - INFO - Show map, Player position: (4, 1) The position of the dragon: (2, 2) - 2023-01-26 23:07:23,805
+dad - INFO - Player position: (4, 1) and choose 'left' and current position is: (3, 1) - 2023-01-26 23:07:25,474
+dad - INFO - Dragon Moved Position: (2, 1) - 2023-01-26 23:07:25,474
+dad - INFO - Show map, Player position: (3, 1) The position of the dragon: (2, 1) - 2023-01-26 23:07:25,499
+dad - INFO - Player position: (3, 1) and choose 'right' and current position is: (4, 1) - 2023-01-26 23:07:28,632
+dad - INFO - Dragon Moved Position: (3, 1) - 2023-01-26 23:07:28,632
+dad - INFO - Show map, Player position: (4, 1) The position of the dragon: (3, 1) - 2023-01-26 23:07:28,646
+dad - INFO - Player position: (4, 1) and choose 'up' and current position is: (4, 0) - 2023-01-26 23:07:30,083
+dad - INFO - Dragon Moved Position: (3, 0) - 2023-01-26 23:07:30,083
+dad - INFO - Show map, Player position: (4, 0) The position of the dragon: (3, 0) - 2023-01-26 23:07:30,105
+dad - INFO - Player position: (4, 0) and choose 'right' and current position is: (5, 0) - 2023-01-26 23:07:31,609
+dad - INFO - Dragon Moved Position: (4, 0) - 2023-01-26 23:07:31,609
+dad - INFO - Show map, Player position: (5, 0) The position of the dragon: (4, 0) - 2023-01-26 23:07:31,620
+dad - INFO - Player position: (5, 0) and choose 'right' and current position is: (6, 0) - 2023-01-26 23:07:33,000
+dad - INFO - Dragon Moved Position: (5, 0) - 2023-01-26 23:07:33,000
+dad - INFO - Show map, Player position: (6, 0) The position of the dragon: (5, 0) - 2023-01-26 23:07:33,010
+dad - INFO - Player position: (6, 0) and choose 'right' and current position is: (7, 0) - 2023-01-26 23:07:35,806
+dad - INFO - Dragon Moved Position: (6, 0) - 2023-01-26 23:07:35,806
+dad - INFO - Show map, Player position: (7, 0) The position of the dragon: (6, 0) - 2023-01-26 23:07:35,815
+dad - INFO - Player position: (7, 0) and choose 'down' and current position is: (7, 1) - 2023-01-26 23:07:38,200
+dad - INFO - Dragon Moved Position: (6, 1) - 2023-01-26 23:07:38,200
+dad - INFO - Show map, Player position: (7, 1) The position of the dragon: (6, 1) - 2023-01-26 23:07:38,217
+dad - INFO - Player position: (7, 1) and choose 'down' and current position is: (7, 2) - 2023-01-26 23:07:39,759
+dad - INFO - Dragon Moved Position: (6, 2) - 2023-01-26 23:07:39,759
+dad - INFO - behdad was shown a hint - 2023-01-26 23:07:54,869
+dad - INFO - Show map, Player position: (7, 2) The position of the dragon: (6, 2) - 2023-01-26 23:07:54,879

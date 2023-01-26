@@ -38,7 +38,7 @@ from games.dungeon_and_dragon import (
 The implementation of the program is from this part, which was written by nested loop
 """
 
-logging.config.fileConfig(fname = 'log/log_setting.toml', disable_existing_loggers=False)
+logging.config.fileConfig(fname='log/log_setting.toml', disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
 logger_dad = logging.getLogger("dad")
 
@@ -55,10 +55,10 @@ while loop_condition_main_page:
     system("clear")
     logger.info(LogMsg.main_section)
     main_page = [
-        [Table.description_register],
-        [Table.description_login],
-        [Table.description_help], 
-    ]
+                [Table.description_register],
+                [Table.description_login],
+                [Table.description_help],
+                ]
     print(tabulate(main_page, [Table.main_page.center(35)], tablefmt="heavy_grid"))
     INTERNAL_DATABASE = DataBase.read_file()
     input_command = input(OtherMsg.icon_input).casefold()
@@ -169,10 +169,10 @@ while loop_condition_main_page:
                             system("clear")
                             print()
                             select_games = [
-                                [Table.description_hm],
-                                [Table.description_ttt],
-                                [Table.description_dad], 
-                            ]
+                                            [Table.description_hm],
+                                            [Table.description_ttt],
+                                            [Table.description_dad]
+                                            ]
                             print(f"Hi, {USER_INFORMATION['username']}")
                             print(tabulate(select_games, [Table.select_games.center(25)], tablefmt="heavy_grid"))
                             input_command = input(OtherMsg.icon_input)
@@ -206,10 +206,10 @@ while loop_condition_main_page:
                                         system("clear")
                                         logger.info(LogMsg.dad_section.format({USER_INFORMATION['username']}, wallet))
                                         select_levels = [
-                                        [Table.description_easy],
-                                        [Table.description_normal],
-                                        [Table.description_hard],
-                                        ]
+                                                        [Table.description_easy],
+                                                        [Table.description_normal],
+                                                        [Table.description_hard]
+                                                        ]
                                         print(f"{USER_INFORMATION['username']}, you have {wallet}₵")
                                         print(tabulate(select_levels, [Table.dad_page.center(35)], tablefmt="heavy_grid"))
                                         input_command = input(OtherMsg.icon_input).casefold()
@@ -221,7 +221,7 @@ while loop_condition_main_page:
                                             sleep(0.7)
                                             system("clear")
                                         else:
-                                            levels = {"-easy" : (4, 7), "-normal" : (10, 16), "-hard" : (22, 40)}
+                                            levels = {"-easy": (4, 7), "-normal": (10, 16), "-hard": (22, 40)}
                                             if input_command == "-adv":
                                                 logger.info(LogMsg.adv_start_dad_section.format({USER_INFORMATION['username']}, wallet))
                                                 coin = user_command.dash_adv(1.3)
@@ -315,4 +315,4 @@ while loop_condition_main_page:
                     sleep(0.7)
 logger.info(LogMsg.end)
 if __name__ == "__main__":
-    LogMsg
+    ...

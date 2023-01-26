@@ -5,7 +5,7 @@ from .settings import setting
 
 
 class DataBase():
-    """ 
+    """
     This class consists of three methods that are responsible for the database
     """
 
@@ -30,20 +30,20 @@ class DataBase():
 
         """
         with open(setting._address.value, "w") as myfile:
-            database = csv.DictWriter(myfile, fieldnames=["username", "password", "wallet"]) # noqa E501
+            database = csv.DictWriter(myfile, fieldnames=["username", "password", "wallet"])
             database.writeheader()
             for line in INTERNAL_DATABASE:
                 database.writerow(line)
 
     @staticmethod
     def check_existence_file():
-        """ 
+        """
         Checks that the csv file is created if it does not exist in the directory
         """
         list_dir = os.listdir("Accounts/")
         if setting._name.value not in list_dir:
             with open(setting._address.value, "w") as myfile:
-                database = csv.DictWriter(myfile, fieldnames=["username", "password", "wallet"]) # noqa E501
+                database = csv.DictWriter(myfile, fieldnames=["username", "password", "wallet"])
                 database.writeheader()
 
 

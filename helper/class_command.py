@@ -40,7 +40,7 @@ class command:
         self.__valid_command = value
 
     def dash_exit(self):
-        """ 
+        """
         The program end message is printed
         """
         if not self.__command == "-exit":
@@ -100,7 +100,7 @@ class command:
         return 5
 
     def dash_help(self):
-        """ 
+        """
         Prints a message about the program
         """
         if not self.__command == "-help":

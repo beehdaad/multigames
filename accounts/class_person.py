@@ -3,7 +3,7 @@ from .custom_error import PasswordRange, AllowedWord
 
 
 class register:
-    """ 
+    """
     Creates an account using the username and password entered by the user
     which must follow some rules, otherwise it will raise an error
     """
@@ -75,14 +75,14 @@ class register:
         """
         content: bool = False
         if register.check_username(self, data)[0] is False:
-            data.append(dict(username=self.__username, password=self.__password, wallet= 50)) # noqa E501
+            data.append(dict(username=self.__username, password=self.__password, wallet= 50))
             DataBase.write_file(data)
             content = True
         return content
 
 
 class login(DataBase):
-    """ 
+    """
     If the username and password are in the database,
     it will allow login, otherwise it will return an error
     You can even log out of the account
@@ -119,7 +119,7 @@ class login(DataBase):
     def logout(self, data: list[dict], user_info: dict):
         """
         Added user information with the internal database and rewrote the database file
-    
+
         Parameters
         ----------
         data: list :

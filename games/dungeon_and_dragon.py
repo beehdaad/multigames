@@ -7,7 +7,7 @@ import math
 
 class LevelEasy:
     """
-    Easy to make appropriate level values    
+    Easy to make appropriate level values
     """
     def __init__(self) -> None:
         self.table_size = 5
@@ -19,7 +19,7 @@ class LevelEasy:
 
 class LevelNormal:
     """
-    Normal to make appropriate level values    
+    Normal to make appropriate level values
     """
     def __init__(self) -> None:
         self.table_size = 8
@@ -30,24 +30,24 @@ class LevelNormal:
 
 class LevelHard:
     """
-    Hard to make appropriate level values    
+    Hard to make appropriate level values
     """
     def __init__(self) -> None:
         self.table_size = 12
         self.xy_list = [(x, y) for y in range(self.table_size) for x in range(self.table_size)]
-        self.player, self.dragon, self.dungeon, self.hint , *wall = sample(self.xy_list, k=25)
+        self.player, self.dragon, self.dungeon, self.hint, *wall = sample(self.xy_list, k=25)
         self.wall = wall
 
 
 class DrawMap:
-    """ 
+    """
     Create an initializer with an object from the leveling class
-    
-    For example:    
+
+    For example:
     >>> a = LevelsEasy()
     >>> b = DrawMap(a.table_size, a.xy_list, ...)
-    And then we can use the show function and print its values with 
-    
+    And then we can use the show function and print its values with
+
     >>> b.show()
     >>> show place game
     """
@@ -58,8 +58,8 @@ class DrawMap:
                 player: tuple[int, int],
                 wall: list[tuple[int, int]],
                 hint: tuple[int, int],
-                dragon: tuple[int, int]=None,
-                dungeon: tuple[int, int]=None
+                dragon: tuple[int, int] = None,
+                dungeon: tuple[int, int] = None
                 ) -> None:
         self.table_size = table_size
         self.xy_list = xy_list
@@ -68,8 +68,9 @@ class DrawMap:
         self.dungeon = dungeon
         self.wall = wall
         self.hint = hint
+
     def show(self):
-        """ 
+        """
         The output uses the print() function
         """
         print("-"*((self.table_size*3) + 2))
@@ -97,7 +98,7 @@ class DrawMap:
 
 
 class AllowedDirection:
-    """ 
+    """
     Using the object you made from the game level,
     give the size of the table, character and walls to the function,
     Here you don't need to create object class Just call and pass the values into the function
@@ -152,7 +153,7 @@ class AllowedDirection:
 
 
 class MoveCharacter:
-    """ 
+    """
     You have to give it the position of the character and the direction of movement,
     and its output will be a tuple by the perform function
     In fact, it changes the position of the character
@@ -160,18 +161,21 @@ class MoveCharacter:
     def __init__(self, character: tuple[int, int], move: str) -> None:
         self.character = character
         self.move = move
+
     @property
     def character(self):
         return self.__character
+
     @character.setter
     def character(self, value):
         if not isinstance(value, tuple):
             raise TypeError
         self.__character = value
-    
+
     @property
     def move(self):
         return self.__move
+
     @move.setter
     def move(self, value):
         if not isinstance(value, str):
@@ -181,7 +185,7 @@ class MoveCharacter:
     def perform(self) -> tuple[int, int]:
         """
         The output of this function after calling is the changed position of the character
-        
+
         For example:
 
         >>> MoveCharacter((2, 5), "up").perform()
@@ -200,8 +204,8 @@ class MoveCharacter:
 
 
 class MoveDragon:
-    """ 
-    Dragon decides according to its current position, 
+    """
+    Dragon decides according to its current position,
     you just need to use the perfom function and provide the required values to it.
     """
     def perform(self, check_distance: int | str) -> tuple[tuple[int, int], str]:
@@ -222,24 +226,24 @@ class MoveDragon:
         x_player, y_player = self.player
         x_dragon, y_dragon = self.dragon
         if check_distance == 2:
-            if y_player == y_dragon and "left" in NAVIGATION and x_player < x_dragon: # noqa E501
+            if y_player == y_dragon and "left" in NAVIGATION and x_player < x_dragon:
                 dragon_position = MoveCharacter(self.dragon, "left").perform(), "hearing"
-            elif y_player == y_dragon and "right" in NAVIGATION and x_player > x_dragon: # noqa E501
+            elif y_player == y_dragon and "right" in NAVIGATION and x_player > x_dragon:
                 dragon_position = MoveCharacter(self.dragon, "right").perform(), "hearing"
-            elif x_player == x_dragon and "up" in NAVIGATION and y_player < y_dragon: # noqa E501
+            elif x_player == x_dragon and "up" in NAVIGATION and y_player < y_dragon:
                 dragon_position = MoveCharacter(self.dragon, "up").perform(), "hearing"
-            elif x_player == x_dragon and "down" in NAVIGATION and y_player > y_dragon: # noqa E501
+            elif x_player == x_dragon and "down" in NAVIGATION and y_player > y_dragon:
                 dragon_position = MoveCharacter(self.dragon, "down").perform(), "hearing"
             else:
                 move = choice(NAVIGATION)
-                dragon_position =  MoveCharacter(self.dragon, move).perform(), "hearing"
+                dragon_position = MoveCharacter(self.dragon, move).perform(), "hearing"
         elif check_distance == 4:
             move = choice(NAVIGATION)
-            dragon_position =  MoveCharacter(self.dragon, move).perform(), "smell"
+            dragon_position = MoveCharacter(self.dragon, move).perform(), "smell"
         return dragon_position
 
     def distance(self):
-        """ 
+        """
         Calculate the distance between the player and
         the dragon using the Euclidean triangle method
 

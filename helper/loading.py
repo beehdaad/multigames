@@ -82,7 +82,7 @@ class LoadingLogo:
         self.__caption = value
 
     def show(self):
-        """ 
+        """
         By means of this function, the value of the object is taken and printed
         """
         TXT_PYFIGLET = pyfiglet.Figlet(font='slant')
@@ -122,11 +122,13 @@ class LoadingCountNum:
     @property
     def time(self):
         return self.__time
+
     @time.setter
     def time(self, value):
         if not isinstance(value, float):
             raise TypeError
         self.__time = value
+
 
 if __name__ == "__main__":
     LoadingLogo("Multi Games").show()

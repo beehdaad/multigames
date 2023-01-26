@@ -55,7 +55,7 @@ class OtherMsg(StrEnum):
 
 
 class LogMsg(StrEnum):
-    """ 
+    """
     This section belongs to Logger texts
     """
     end = "end game"
@@ -89,7 +89,7 @@ class LogMsg(StrEnum):
     register_main_section = "The user entered the '-register' command in the 'main' section"
     return_dad_section = "{} entered the '-return' command in the 'dungeon and dragon' section"
     return_register_section = "The user entered the '-return' command in the 'register' section"
-    command_report_main= "the user entered an unauthorized command >>> {} in the 'main' section"
+    command_report_main = "the user entered an unauthorized command >>> {} in the 'main' section"
     hm_select_games_section = "The user entered the '-hm' command in the 'select games' section"
     dad_select_games_section = "The user entered the '-dad' command in the 'select games' section"
     ttt_select_games_section = "The user entered the '-ttt' command in the 'select games' section"
@@ -101,7 +101,7 @@ class LogMsg(StrEnum):
 
 
 class DashMsg(StrEnum):
-    """ 
+    """
     This section belongs to the command class
     """
     adv_8 = "why not"
@@ -112,12 +112,12 @@ class DashMsg(StrEnum):
     adv_2 = "stop saying bullshits, What did you do with your money?"
     adv_3 = "I gave all the money I had to Mapsa for Django boot camp"
     exit = "Hope To See You Again...\n\nCopyright© 2023 Behdad Siavoshi"
-    adv_1 = "Hello dude, I had come to play Dungeons and Dragons, but I didn't have enough money" # noqa E501
-    adv_7 = "good luck, Just pay your money for the boot camp first, Can you please lend me 5 coins?" # noqa E501
-    adv_5 = "A company in the field of oil and petrochemicals, but in one of its floors, programming is taught" # noqa E501
+    adv_1 = "Hello dude, I had come to play Dungeons and Dragons, but I didn't have enough money"
+    adv_7 = "good luck, Just pay your money for the boot camp first, Can you please lend me 5 coins?"
+    adv_5 = "A company in the field of oil and petrochemicals, but in one of its floors, programming is taught"
     help = """
     Hello, my friend
-    
+
     You need an account to enter the game
     If you have, enter "-login" in the input field, otherwise,
     enter "-register" and create an account for yourself.
