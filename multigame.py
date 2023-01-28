@@ -194,9 +194,11 @@ while loop_condition_main_page:
                                 elif input_command == "-hm":
                                     logger.info(LogMsg.hm_select_games_section)
                                     print("page not found")
+                                    sleep(1)
                                 elif input_command == "-ttt":
                                     logger.info(LogMsg.ttt_select_games_section)
                                     print("page not found")
+                                    sleep(1)
                                 elif input_command == "-dad":
                                     sleep(0.1)
                                     logger.info(LogMsg.dad_select_games_section)
