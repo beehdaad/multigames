@@ -1,5 +1,5 @@
 from .class_database import DataBase
-from .custom_error import PasswordRange, AllowedWord
+from ..helper.exc import PasswordRange, AllowedWord
 
 
 class register:
