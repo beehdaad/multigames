@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, Session
+from painless import Singleton
 
-
-class SQLalchemy():
+class SQLalchemy(metaclass=Singleton):
     def __init__(self) -> None:
         self.engine = self.create_engine()
         self.Base = declarative_base()

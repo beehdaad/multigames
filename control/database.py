@@ -1,7 +1,7 @@
-from model import db
+from model.core import SQLalchemy
 from sqlalchemy import sql
 from model.models.user import UserModels
-
+db = SQLalchemy()
 class Query_DB(UserModels):
     def __init__(self, username: str, password: str, wallet: int  ) -> None:
         self.username = username

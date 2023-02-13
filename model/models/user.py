@@ -1,10 +1,10 @@
 from sqlalchemy import ( 
-    sql,
     Column,
     Integer,
     String,
 )
-from model import db
+from model.core import SQLalchemy
+db = SQLalchemy()
 
 
 class UserModels(db.Base):
