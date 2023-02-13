@@ -1,39 +1,13 @@
-from sqlalchemy import ( 
-    sql,
-    Column,
-    Integer,
-    String,
-)
-from database import db
+from model import db
+from sqlalchemy import sql
+from model.models.user import UserModels
 
-
-class UserModels(db.Base):
-    __tablename__ = "account_users"
-
-    id = Column(
-        Integer,
-        primary_key=True
-    )
-    username = Column(
-        String(255),
-        nullable=False,
-        unique=True
-    )
-    password = Column(
-        String(255),
-        nullable=False
-
-    )
-    wallet = Column(
-        Integer,
-        nullable=False
-    )
-
+class Query_DB(UserModels):
     def __init__(self, username: str, password: str, wallet: int  ) -> None:
         self.username = username
         self.password = password
         self.wallet = wallet
-    
+        
 
 
     @classmethod
@@ -60,6 +34,3 @@ class UserModels(db.Base):
 
     def __repr__(self):
         pass
-
-if __name__ == "__main__":
-    ...

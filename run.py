@@ -1,4 +1,4 @@
-from kernel.multigame import main
+from view.multigame import main
 
 
 if __name__ == "__main__":

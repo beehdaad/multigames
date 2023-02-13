@@ -3,7 +3,7 @@ from time import sleep
 
 from cowsay import cow, fox
 
-from .captions import DashMsg
+from helper.captions import DashMsg
 
 
 class command:

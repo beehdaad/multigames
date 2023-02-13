@@ -10,11 +10,11 @@ from tabulate import tabulate
 from helper import (
     Table,
     LogMsg,
-    command,
     OtherMsg,
     LoadingCountNum,
 )
-from games.dungeon_and_dragon import (
+from control.class_command import command
+from control.dungeon_and_dragon import (
     DrawMap,
     LevelHard,
     LevelEasy,

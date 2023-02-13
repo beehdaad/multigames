@@ -1,7 +1,8 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, Session
 
-class SQLalchemy:
+
+class SQLalchemy():
     def __init__(self) -> None:
         self.engine = self.create_engine()
         self.Base = declarative_base()
