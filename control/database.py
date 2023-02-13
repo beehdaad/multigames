@@ -1,17 +1,20 @@
 from model.core import SQLalchemy
 from sqlalchemy import sql
 from model.models.user import UserModels
+from painless.descriptors.register import UsernameDescriptor, PasswordDescriptor
 db = SQLalchemy()
 class Query_DB(UserModels):
-    def __init__(self, username: str, password: str, wallet: int  ) -> None:
-        self.username = username
-        self.password = password
-        self.wallet = wallet
-        
+    user = UsernameDescriptor("username")
+    pd = PasswordDescriptor("password")
+    def __init__(self, username: str, password: str) -> None:
+        self.user = username
+        self.pd = password
+
 
 
     @classmethod
     def register(cls, username: str, password: str):
+        cls(username, password)
         user = sql.insert(cls).values(username=username, password=password, wallet=50)
         db.session.execute(user)
         db.session.commit()

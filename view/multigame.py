@@ -58,8 +58,4 @@ def main():
             elif input_command == "-login":
                 sleep(0.1)
                 func_login(logger)
-            # else:
-            #     logger.info(LogMsg.command_report_main.format(input_command))
-            #     print(OtherMsg.input_valid)
-            #     sleep(0.7)
     logger.info(LogMsg.end)

@@ -38,7 +38,7 @@ def func_register(logger):
             else:
                 logger.info(LogMsg.return_register_section)
                 loop_condition_register_page = False
-        elif input_username[0].isalpha():
+        else:
             system("clear")
             print(tabulate(register_page, [Table.register_page.center(35)], tablefmt="heavy_grid"))
             print(f"Username: {input_username}")
